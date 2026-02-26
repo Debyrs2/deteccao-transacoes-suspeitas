@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detecção de Transações Suspeitas</title>
     <style>
-        /* Variáveis de Cores para facilitar a manutenção */
         :root {
             --bg-color: #f3f4f6;
             --text-main: #1f2937;
@@ -17,7 +16,6 @@
             --border-color: #e5e7eb;
         }
 
-        /* Reset Básico */
         * {
             margin: 0;
             padding: 0;
@@ -38,7 +36,6 @@
             width: 100%;
         }
 
-        /* Cabeçalho */
         header {
             margin-bottom: 2rem;
         }
@@ -56,7 +53,6 @@
             text-align: center;
         }
 
-        /* Grid dos Cards de Resumo (Métricas) */
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -90,7 +86,7 @@
             font-weight: 700;
         }
 
-        /* Destaque para a quantidade de suspeitas */
+
         .stat-card.alert .value {
             color: var(--accent-red);
         }
@@ -101,7 +97,6 @@
             color: var(--text-muted);
         }
 
-        /* Tabela de Transações */
         .table-container {
             background-color: var(--card-bg);
             border-radius: 12px;
@@ -159,7 +154,6 @@
             text-transform: uppercase;
         }
 
-        /* Responsividade */
         @media (max-width: 768px) {
             body {
                 padding: 1rem;
